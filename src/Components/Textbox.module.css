@@ -1,0 +1,106 @@
+.box {
+  height: 245px;
+  width: 610px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  align-content: flex-start;
+  gap: 12px;
+  margin: auto;
+  margin-block: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  border-radius: 7px;
+}
+.box input[type="text"] {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-inline: 5px;
+  margin: 3px 3px 3px 0;
+
+  box-sizing: border-box;
+}
+.box .in {
+  width: 100%;
+  height: 45px;
+}
+.box .text {
+  width: 100%;
+  height: 65px;
+  background-color: aquamarine;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  resize: none;
+}
+.box .label {
+  height: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 3px solid black;
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  /* text-align: end;*/
+
+  padding-inline: 25px;
+}
+.inside {
+  height: 40px;
+  width: 115px;
+  display: inline;
+
+  /* margin-right: 20px;*/
+  padding-right: 11px;
+}
+.space {
+  margin-right: 7px;
+  position: relative;
+  top: 2.5px;
+}
+
+.below {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 8px;
+}
+button {
+  width: 75px;
+  height: 32px;
+  background-color: rgba(40, 16, 173, 0.719);
+  color: ghostwhite;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.last {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.lone {
+  background-color: aquamarine;
+  height: 40px;
+  width: 90px;
+}
+.box1 {
+  height: 60px;
+  width: 45px;
+  background-color: blue;
+}
